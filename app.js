@@ -79,4 +79,64 @@ function buildTeam() {
             createUser();
         })
     }
+
+    function setIntern() {
+        inquirer.prompt([
+            {
+                type: "input",
+                message: "Intern's Name?",
+                name: "internName",
+            },
+
+            {
+                type: "input",
+                message: "Intern's e-mail?",
+                name: "internEmail",
+            },
+
+            {
+                type: "input",
+                message: "Intern's ID?",
+                name: "internId",
+            },
+
+            {
+                type: "input",
+                message: "Intern's school?",
+                name: "internSchool",
+            },
+        ]) .then(res => {
+            const engineer = newIntern(res.internName, res.internEmail, res.internId, res.internSchool);
+            employee.push(intern);
+            console.log(employees);
+            createUser();
+        })
+    }
+
+    // Unsure how to make this part work right now//
+    
+    // function createEmployee() {
+    //     inquirer.prompt([
+    //         {
+    //             type: "list",
+    //         message: "What type of employee would you like to add?",
+    //         name: "typeOfEmployee",
+    //         choices: ["Engineer", "Intern", "None"]
+    //         }
+    //     ]) .then(choice => {
+    //         switch (choice.typeOfEmployee){
+    //             case "Engineer":
+    //                 createEngineer();
+
+    //                 break;
+
+    //             case "Intern":
+    //                 createIntern();
+
+    //                 break;
+
+    //             default
+    //         }
+    //     })
+    // }
 }
