@@ -47,5 +47,36 @@ function buildTeam() {
         });
     }
 
-    
+    function setEngineer() {
+        inquirer.prompt([
+            {
+                type: "input",
+                message: "Engineer's Name?",
+                name: "engineerName",
+            },
+
+            {
+                type: "input",
+                message: "Engineer's e-mail?",
+                name: "engineerEmail",
+            },
+
+            {
+                type: "input",
+                message: "Engineer's ID?",
+                name: "engineerId",
+            },
+
+            {
+                type: "input",
+                message: "Engineer's GitHub Username?",
+                name: "engineerGitHub",
+            },
+        ]) .then(res => {
+            const engineer = newEngineer(res.engineerName, res.engineerEmail, res.engineerId, res.engineerGitHub);
+            employee.push(engineer);
+            console.log(employees);
+            createUser();
+        })
+    }
 }
