@@ -1,1 +1,5 @@
 # hw10-employeeSummary
+
+This assignment's objective was to create an employee summary that would include a manager, engineer, and intern. The user would be prompted to enter managers name, ID, e-mail, and office number. Then, would be asked what type of employee to add next, with choices being ENgineer, Intern, or None. If Engineer is selected, user would be prompted to enter Name, ID, E_mail, and GitHub username. If Intern is selected, then user would be prompted for Name, ID, E-mail, and School. After all input is complete, am HTML doc would be generated with a card for each employee created, displaying their info. 
+
+I was able to get a log farther than I thought I would with this project! However, at the end when I was running tests, there were a few errors I was unable to figure out or correct. I am showing there are still 2 that are failing, but the other 15 passed. I also tried running it using "node app.js" but it also errored for that..? Unsure of why. Maybe I was trying to run incorrectly. As always, I will continue to work on this to get it corrected and functioning properly. 
