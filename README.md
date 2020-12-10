@@ -1,5 +1,15 @@
-# hw10-employeeSummary
+## hw10-employeeSummary
 
-This assignment's objective was to create an employee summary that would include a manager, engineer, and intern. The user would be prompted to enter managers name, ID, e-mail, and office number. Then, would be asked what type of employee to add next, with choices being ENgineer, Intern, or None. If Engineer is selected, user would be prompted to enter Name, ID, E_mail, and GitHub username. If Intern is selected, then user would be prompted for Name, ID, E-mail, and School. After all input is complete, am HTML doc would be generated with a card for each employee created, displaying their info. 
+This assignment's objective was to create an employee summary that would include 1 manager, and the desired amount of engineers and interns the user wants to add. First, the user is prompted to enter the managers name, ID, e-mail, and office number. Then, are asked what type of employee to add next, with choices being "Engineer", "Intern", or "None". If Engineer is selected, user is prompted to enter name, ID, e-mail, and GitHub username. If Intern is selected, then user is prompted for name, ID, e-mail, and school. After desired amount of additional engineers and interns have been added, user selects "None" and an HTML document is generated with a card for each employee created which displays their information. 
 
-I was able to get a log farther than I thought I would with this project! However, at the end when I was running tests, there were a few errors I was unable to figure out or correct. I am showing there are still 2 that are failing, but the other 15 passed. I also tried running it using "node app.js" but it also errored for that..? Unsure of why. Maybe I was trying to run incorrectly. As always, I will continue to work on this to get it corrected and functioning properly. 
+
+
+
+
+
+
+
+<iframe src="https://drive.google.com/file/d/1PJHYqMKhV_sWu1rWk4i3SR8bhuYN3QwF/preview" width="640" height="480"></iframe>
+
+
+
