@@ -6,10 +6,9 @@ This assignment's objective was to create an employee summary that would include
 
 
 
+# Below is the link to a video of the apps functionality:
 
-
-
-<iframe src="https://drive.google.com/file/d/1PJHYqMKhV_sWu1rWk4i3SR8bhuYN3QwF/preview" width="640" height="480"></iframe>
+https://drive.google.com/file/d/1PJHYqMKhV_sWu1rWk4i3SR8bhuYN3QwF/preview
 
 
 
